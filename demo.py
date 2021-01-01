@@ -13,7 +13,7 @@ from model import SimpleCLS
 net = SimpleCLS(phase='test')
 net = net.eval()
 # load weight
-state_dict = torch.load('./weights/face_binary_cls.pth')
+state_dict = torch.load('./weights/face_binary_cls.pth', map_location='cpu')
 net.load_state_dict(state_dict)
 
 
