@@ -1,0 +1,1711 @@
+The system is: Linux - 5.7.14-200.fc32.x86_64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/bill/下载/opencv-4.5.0/build/CMakeFiles/3.17.4/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/bill/下载/opencv-4.5.0/build/CMakeFiles/3.17.4/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4e3ef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4e3ef.dir/build.make CMakeFiles/cmTC_4e3ef.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_4e3ef.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_4e3ef.dir/testCXXCompiler.cxx.o -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_4e3ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e3ef.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_4e3ef.dir/testCXXCompiler.cxx.o  -o cmTC_4e3ef 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_25eeb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_25eeb.dir/build.make CMakeFiles/cmTC_25eeb.dir/build
+gmake[1]: Entering directory '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -fPIE   -v -o CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20200723 (Red Hat 10.2.1-1) (GCC) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/10/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o -version -fPIE -o /tmp/ccyyadRY.s
+GNU C++14 (GCC) version 10.2.1 20200723 (Red Hat 10.2.1-1) (x86_64-redhat-linux)
+	compiled by GNU C version 10.2.1 20200723 (Red Hat 10.2.1-1), GMP version 6.1.2, MPFR version 4.0.2-p9, MPC version 1.1.0, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/10/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10
+ /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux
+ /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward
+ /usr/lib/gcc/x86_64-redhat-linux/10/include
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 10.2.1 20200723 (Red Hat 10.2.1-1) (x86_64-redhat-linux)
+	compiled by GNU C version 10.2.1 20200723 (Red Hat 10.2.1-1), GMP version 6.1.2, MPFR version 4.0.2-p9, MPC version 1.1.0, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 61a79f744777569dee61fe7e7cf9806a
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccyyadRY.s
+GNU assembler version 2.34 (x86_64-redhat-linux) using BFD version version 2.34-4.fc32
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_25eeb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25eeb.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_25eeb 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20200723 (Red Hat 10.2.1-1) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25eeb' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/10/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNciE1i.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_25eeb /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/10 -L/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/10/../../.. CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25eeb' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10]
+    add: [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux]
+    add: [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward]
+    add: [/usr/lib/gcc/x86_64-redhat-linux/10/include]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10] ==> [/usr/include/c++/10]
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux] ==> [/usr/include/c++/10/x86_64-redhat-linux]
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward] ==> [/usr/include/c++/10/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/10/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/10/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/10;/usr/include/c++/10/x86_64-redhat-linux;/usr/include/c++/10/backward;/usr/lib/gcc/x86_64-redhat-linux/10/include;/usr/local/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_25eeb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_25eeb.dir/build.make CMakeFiles/cmTC_25eeb.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -fPIE   -v -o CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.2.1 20200723 (Red Hat 10.2.1-1) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/10/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o -version -fPIE -o /tmp/ccyyadRY.s]
+  ignore line: [GNU C++14 (GCC) version 10.2.1 20200723 (Red Hat 10.2.1-1) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 10.2.1 20200723 (Red Hat 10.2.1-1)  GMP version 6.1.2  MPFR version 4.0.2-p9  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/10/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 10.2.1 20200723 (Red Hat 10.2.1-1) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 10.2.1 20200723 (Red Hat 10.2.1-1)  GMP version 6.1.2  MPFR version 4.0.2-p9  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 61a79f744777569dee61fe7e7cf9806a]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccyyadRY.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-redhat-linux) using BFD version version 2.34-4.fc32]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_25eeb]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25eeb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_25eeb ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.2.1 20200723 (Red Hat 10.2.1-1) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25eeb' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/10/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNciE1i.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_25eeb /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/10 -L/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/10/../../.. CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccNciE1i.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_25eeb] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/10] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/10]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/10/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../..]
+    arg [CMakeFiles/cmTC_25eeb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/10] ==> [/usr/lib/gcc/x86_64-redhat-linux/10]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/10;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b0693/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b0693.dir/build.make CMakeFiles/cmTC_b0693.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b0693.dir/testCCompiler.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_b0693.dir/testCCompiler.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b0693
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0693.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b0693.dir/testCCompiler.c.o  -o cmTC_b0693 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e4092/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e4092.dir/build.make CMakeFiles/cmTC_e4092.dir/build
+gmake[1]: Entering directory '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20200723 (Red Hat 10.2.1-1) (GCC) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/10/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o -version -fPIE -o /tmp/ccMEs8pC.s
+GNU C17 (GCC) version 10.2.1 20200723 (Red Hat 10.2.1-1) (x86_64-redhat-linux)
+	compiled by GNU C version 10.2.1 20200723 (Red Hat 10.2.1-1), GMP version 6.1.2, MPFR version 4.0.2-p9, MPC version 1.1.0, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/10/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-redhat-linux/10/include
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 10.2.1 20200723 (Red Hat 10.2.1-1) (x86_64-redhat-linux)
+	compiled by GNU C version 10.2.1 20200723 (Red Hat 10.2.1-1), GMP version 6.1.2, MPFR version 4.0.2-p9, MPC version 1.1.0, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f0854f6113f296a2ef10a437ae064ca7
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o /tmp/ccMEs8pC.s
+GNU assembler version 2.34 (x86_64-redhat-linux) using BFD version version 2.34-4.fc32
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_e4092
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4092.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o  -o cmTC_e4092 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20200723 (Red Hat 10.2.1-1) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e4092' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/10/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5H0uMY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e4092 /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/10 -L/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/10/../../.. CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e4092' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-redhat-linux/10/include]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/10/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/10/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-redhat-linux/10/include;/usr/local/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_e4092/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e4092.dir/build.make CMakeFiles/cmTC_e4092.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.2.1 20200723 (Red Hat 10.2.1-1) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/10/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o -version -fPIE -o /tmp/ccMEs8pC.s]
+  ignore line: [GNU C17 (GCC) version 10.2.1 20200723 (Red Hat 10.2.1-1) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 10.2.1 20200723 (Red Hat 10.2.1-1)  GMP version 6.1.2  MPFR version 4.0.2-p9  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/10/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 10.2.1 20200723 (Red Hat 10.2.1-1) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 10.2.1 20200723 (Red Hat 10.2.1-1)  GMP version 6.1.2  MPFR version 4.0.2-p9  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: f0854f6113f296a2ef10a437ae064ca7]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o /tmp/ccMEs8pC.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-redhat-linux) using BFD version version 2.34-4.fc32]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_e4092]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4092.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o  -o cmTC_e4092 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.2.1 20200723 (Red Hat 10.2.1-1) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e4092' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/10/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5H0uMY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e4092 /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/10 -L/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/10/../../.. CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5H0uMY.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e4092] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/10] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/10]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/10/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../..]
+    arg [CMakeFiles/cmTC_e4092.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/10] ==> [/usr/lib/gcc/x86_64-redhat-linux/10]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/10;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_21641/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_21641.dir/build.make CMakeFiles/cmTC_21641.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_21641.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_21641.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_21641
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21641.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_21641.dir/CheckIncludeFile.c.o  -o cmTC_21641 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_29dff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_29dff.dir/build.make CMakeFiles/cmTC_29dff.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_29dff.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_29dff.dir/CheckSymbolExists.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_29dff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29dff.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_29dff.dir/CheckSymbolExists.c.o  -o cmTC_29dff 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+File /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_813a0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_813a0.dir/build.make CMakeFiles/cmTC_813a0.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_813a0.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_813a0.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_813a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_813a0.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_813a0.dir/CheckIncludeFile.c.o  -o cmTC_813a0 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the memalign exist passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_87697/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_87697.dir/build.make CMakeFiles/cmTC_87697.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_87697.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_87697.dir/CheckSymbolExists.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_87697
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87697.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_87697.dir/CheckSymbolExists.c.o  -o cmTC_87697 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+File /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a5b60/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a5b60.dir/build.make CMakeFiles/cmTC_a5b60.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a5b60.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a5b60.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a5b60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5b60.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_a5b60.dir/CheckIncludeFile.c.o  -o cmTC_a5b60 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bbea3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bbea3.dir/build.make CMakeFiles/cmTC_bbea3.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bbea3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_bbea3.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bbea3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbea3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_bbea3.dir/CheckIncludeFile.c.o  -o cmTC_bbea3 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_78c71/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_78c71.dir/build.make CMakeFiles/cmTC_78c71.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_78c71.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_78c71.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_78c71
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78c71.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_78c71.dir/CheckIncludeFile.c.o  -o cmTC_78c71 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2e305/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e305.dir/build.make CMakeFiles/cmTC_2e305.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2e305.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_2e305.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_2e305
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e305.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_2e305.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_2e305 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ce59c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ce59c.dir/build.make CMakeFiles/cmTC_ce59c.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ce59c.dir/TestEndianess.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_ce59c.dir/TestEndianess.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_ce59c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce59c.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_ce59c.dir/TestEndianess.c.o  -o cmTC_ce59c 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bf6b8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bf6b8.dir/build.make CMakeFiles/cmTC_bf6b8.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bf6b8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=fseeko -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_bf6b8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bf6b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf6b8.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=fseeko -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_bf6b8.dir/CheckFunctionExists.c.o  -o cmTC_bf6b8 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_00f4f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_00f4f.dir/build.make CMakeFiles/cmTC_00f4f.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_00f4f.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_00f4f.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_00f4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00f4f.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_00f4f.dir/CheckIncludeFile.c.o  -o cmTC_00f4f 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5f102/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f102.dir/build.make CMakeFiles/cmTC_5f102.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5f102.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5f102.dir/SIZEOF_SIZE_T.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_5f102
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f102.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_5f102.dir/SIZEOF_SIZE_T.c.o  -o cmTC_5f102 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6b9cb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b9cb.dir/build.make CMakeFiles/cmTC_6b9cb.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6b9cb.dir/SIZEOF_UNSIGNED_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_6b9cb.dir/SIZEOF_UNSIGNED_LONG.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_6b9cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b9cb.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_6b9cb.dir/SIZEOF_UNSIGNED_LONG.c.o  -o cmTC_6b9cb 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZL succeeded with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_df404/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_df404.dir/build.make CMakeFiles/cmTC_df404.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_df404.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough -DHAVE_BUILTIN_CTZL -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_df404.dir/src.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_df404
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df404.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough -DHAVE_BUILTIN_CTZL -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_df404.dir/src.c.o  -o cmTC_df404 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main(int argc, char **argv) { unsigned long a = argc;  return __builtin_ctzl(a); }
+Determining if files locale.h exist passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2c6c8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2c6c8.dir/build.make CMakeFiles/cmTC_2c6c8.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2c6c8.dir/HAVE_LOCALE_H.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_2c6c8.dir/HAVE_LOCALE_H.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c
+Linking C executable cmTC_2c6c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c6c8.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_2c6c8.dir/HAVE_LOCALE_H.c.o  -o cmTC_2c6c8 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3911e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3911e.dir/build.make CMakeFiles/cmTC_3911e.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3911e.dir/HAVE_STDLIB_H.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_3911e.dir/HAVE_STDLIB_H.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_3911e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3911e.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_3911e.dir/HAVE_STDLIB_H.c.o  -o cmTC_3911e 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5bab1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5bab1.dir/build.make CMakeFiles/cmTC_5bab1.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5bab1.dir/NEED_SYS_TYPES_H.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5bab1.dir/NEED_SYS_TYPES_H.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckIncludeFiles/NEED_SYS_TYPES_H.c
+Linking C executable cmTC_5bab1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bab1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_5bab1.dir/NEED_SYS_TYPES_H.c.o  -o cmTC_5bab1 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_158c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_158c7.dir/build.make CMakeFiles/cmTC_158c7.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_158c7.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_158c7.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_158c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_158c7.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_158c7.dir/CheckIncludeFile.c.o  -o cmTC_158c7 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7c2c4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7c2c4.dir/build.make CMakeFiles/cmTC_7c2c4.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7c2c4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7c2c4.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7c2c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c2c4.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_7c2c4.dir/CheckIncludeFile.c.o  -o cmTC_7c2c4 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0ae0a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0ae0a.dir/build.make CMakeFiles/cmTC_0ae0a.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0ae0a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_0ae0a.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0ae0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ae0a.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_0ae0a.dir/CheckIncludeFile.c.o  -o cmTC_0ae0a 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_434ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_434ae.dir/build.make CMakeFiles/cmTC_434ae.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_434ae.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_434ae.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_434ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_434ae.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_434ae.dir/CheckIncludeFile.c.o  -o cmTC_434ae 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e04b3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e04b3.dir/build.make CMakeFiles/cmTC_e04b3.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e04b3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e04b3.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e04b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e04b3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_e04b3.dir/CheckIncludeFile.c.o  -o cmTC_e04b3 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_82146/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_82146.dir/build.make CMakeFiles/cmTC_82146.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_82146.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_82146.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_82146
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82146.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_82146.dir/CheckIncludeFile.c.o  -o cmTC_82146 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a04ec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a04ec.dir/build.make CMakeFiles/cmTC_a04ec.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a04ec.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a04ec.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a04ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a04ec.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_a04ec.dir/CheckIncludeFile.c.o  -o cmTC_a04ec 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_09697/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_09697.dir/build.make CMakeFiles/cmTC_09697.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_09697.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_09697.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_09697
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09697.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_09697.dir/CheckIncludeFile.c.o  -o cmTC_09697 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_16bb4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16bb4.dir/build.make CMakeFiles/cmTC_16bb4.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_16bb4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_16bb4.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_16bb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16bb4.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_16bb4.dir/CheckIncludeFile.c.o  -o cmTC_16bb4 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bcaf1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bcaf1.dir/build.make CMakeFiles/cmTC_bcaf1.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bcaf1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_bcaf1.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bcaf1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcaf1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_bcaf1.dir/CheckIncludeFile.c.o  -o cmTC_bcaf1 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_57f70/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_57f70.dir/build.make CMakeFiles/cmTC_57f70.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_57f70.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_57f70.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_57f70
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57f70.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_57f70.dir/CheckIncludeFile.c.o  -o cmTC_57f70 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeeded with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_745d2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_745d2.dir/build.make CMakeFiles/cmTC_745d2.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_745d2.dir/src.c.o
+/usr/bin/cc -Dinline=inline  -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DC_HAS_inline -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_745d2.dir/src.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c:3:29: 警告：函数声明不是一个原型 [-Wstrict-prototypes]
+    3 |         static inline foo_t static_foo() {return 0;}
+      |                             ^~~~~~~~~~
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c:4:15: 警告：函数声明不是一个原型 [-Wstrict-prototypes]
+    4 |         foo_t foo(){return 0;}
+      |               ^~~
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c: 在函数‘main’中:
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c:5:22: 警告：unused parameter ‘argc’ [-Wunused-parameter]
+    5 |         int main(int argc, char *argv[]) {return 0;}
+      |                  ~~~~^~~~
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c:5:34: 警告：unused parameter ‘argv’ [-Wunused-parameter]
+    5 |         int main(int argc, char *argv[]) {return 0;}
+      |                            ~~~~~~^~~~~~
+Linking C executable cmTC_745d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_745d2.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DC_HAS_inline -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_745d2.dir/src.c.o  -o cmTC_745d2 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+Determining size of signed short passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b7067/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7067.dir/build.make CMakeFiles/cmTC_b7067.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b7067.dir/SIZEOF_SIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b7067.dir/SIZEOF_SIGNED_SHORT.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_SHORT.c
+Linking C executable cmTC_b7067
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7067.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_b7067.dir/SIZEOF_SIGNED_SHORT.c.o  -o cmTC_b7067 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3db04/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3db04.dir/build.make CMakeFiles/cmTC_3db04.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3db04.dir/SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_3db04.dir/SIZEOF_UNSIGNED_SHORT.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_3db04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3db04.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_3db04.dir/SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_3db04 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of signed int passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d7932/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d7932.dir/build.make CMakeFiles/cmTC_d7932.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d7932.dir/SIZEOF_SIGNED_INT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d7932.dir/SIZEOF_SIGNED_INT.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_INT.c
+Linking C executable cmTC_d7932
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7932.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_d7932.dir/SIZEOF_SIGNED_INT.c.o  -o cmTC_d7932 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f0484/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f0484.dir/build.make CMakeFiles/cmTC_f0484.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f0484.dir/SIZEOF_UNSIGNED_INT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f0484.dir/SIZEOF_UNSIGNED_INT.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTC_f0484
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0484.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_f0484.dir/SIZEOF_UNSIGNED_INT.c.o  -o cmTC_f0484 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of signed long passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9b22d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b22d.dir/build.make CMakeFiles/cmTC_9b22d.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9b22d.dir/SIZEOF_SIGNED_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_9b22d.dir/SIZEOF_SIGNED_LONG.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG.c
+Linking C executable cmTC_9b22d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b22d.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_9b22d.dir/SIZEOF_SIGNED_LONG.c.o  -o cmTC_9b22d 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_53ea6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53ea6.dir/build.make CMakeFiles/cmTC_53ea6.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_53ea6.dir/SIZEOF_SIGNED_LONG_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_53ea6.dir/SIZEOF_SIGNED_LONG_LONG.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG_LONG.c
+Linking C executable cmTC_53ea6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53ea6.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_53ea6.dir/SIZEOF_SIGNED_LONG_LONG.c.o  -o cmTC_53ea6 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_381c3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_381c3.dir/build.make CMakeFiles/cmTC_381c3.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_381c3.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_381c3.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTC_381c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_381c3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_381c3.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o  -o cmTC_381c3 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_57ea9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_57ea9.dir/build.make CMakeFiles/cmTC_57ea9.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_57ea9.dir/SIZEOF_UNSIGNED_CHAR_P.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_57ea9.dir/SIZEOF_UNSIGNED_CHAR_P.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_CHAR_P.c
+Linking C executable cmTC_57ea9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57ea9.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_57ea9.dir/SIZEOF_UNSIGNED_CHAR_P.c.o  -o cmTC_57ea9 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0e192/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e192.dir/build.make CMakeFiles/cmTC_0e192.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0e192.dir/SIZEOF_PTRDIFF_T.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_0e192.dir/SIZEOF_PTRDIFF_T.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/SIZEOF_PTRDIFF_T.c
+Linking C executable cmTC_0e192
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e192.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_0e192.dir/SIZEOF_PTRDIFF_T.c.o  -o cmTC_0e192 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a4461/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a4461.dir/build.make CMakeFiles/cmTC_a4461.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a4461.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a4461.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<命令行>: 警告：conflicting types for built-in function ‘floor’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: 附注：in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake/Modules/CheckFunctionExists.c:1:1: 附注：‘floor’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_a4461
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4461.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_a4461.dir/CheckFunctionExists.c.o  -o cmTC_a4461  -lm 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_829f1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_829f1.dir/build.make CMakeFiles/cmTC_829f1.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_829f1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_829f1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<命令行>: 警告：conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: 附注：in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake/Modules/CheckFunctionExists.c:1:1: 附注：‘pow’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_829f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_829f1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_829f1.dir/CheckFunctionExists.c.o  -o cmTC_829f1  -lm 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_df46e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_df46e.dir/build.make CMakeFiles/cmTC_df46e.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_df46e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_df46e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<命令行>: 警告：conflicting types for built-in function ‘sqrt’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: 附注：in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake/Modules/CheckFunctionExists.c:1:1: 附注：‘sqrt’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_df46e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df46e.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_df46e.dir/CheckFunctionExists.c.o  -o cmTC_df46e  -lm 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function isascii exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bb5de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bb5de.dir/build.make CMakeFiles/cmTC_bb5de.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bb5de.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=isascii -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_bb5de.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<命令行>: 警告：conflicting types for built-in function ‘isascii’; expected ‘int(int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: 附注：in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_bb5de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb5de.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=isascii -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_bb5de.dir/CheckFunctionExists.c.o  -o cmTC_bb5de 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1be8e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1be8e.dir/build.make CMakeFiles/cmTC_1be8e.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1be8e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memset -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_1be8e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<命令行>: 警告：conflicting types for built-in function ‘memset’; expected ‘void *(void *, int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: 附注：in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake/Modules/CheckFunctionExists.c:1:1: 附注：‘memset’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_1be8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1be8e.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memset -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_1be8e.dir/CheckFunctionExists.c.o  -o cmTC_1be8e 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_95af0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95af0.dir/build.make CMakeFiles/cmTC_95af0.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_95af0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_95af0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95af0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95af0.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_95af0.dir/CheckFunctionExists.c.o  -o cmTC_95af0 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_cd3d8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd3d8.dir/build.make CMakeFiles/cmTC_cd3d8.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cd3d8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=getopt -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_cd3d8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cd3d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd3d8.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=getopt -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_cd3d8.dir/CheckFunctionExists.c.o  -o cmTC_cd3d8 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c1b4c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c1b4c.dir/build.make CMakeFiles/cmTC_c1b4c.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c1b4c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memmove -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c1b4c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<命令行>: 警告：conflicting types for built-in function ‘memmove’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: 附注：in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake/Modules/CheckFunctionExists.c:1:1: 附注：‘memmove’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_c1b4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1b4c.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memmove -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_c1b4c.dir/CheckFunctionExists.c.o  -o cmTC_c1b4c 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_85035/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85035.dir/build.make CMakeFiles/cmTC_85035.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_85035.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_85035.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<命令行>: 警告：conflicting types for built-in function ‘strcasecmp’; expected ‘int(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+<命令行>: 附注：in definition of macro ‘CHECK_FUNCTION_EXISTS’
+Linking C executable cmTC_85035
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85035.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_85035.dir/CheckFunctionExists.c.o  -o cmTC_85035 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_55c19/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_55c19.dir/build.make CMakeFiles/cmTC_55c19.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_55c19.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strchr -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_55c19.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<命令行>: 警告：conflicting types for built-in function ‘strchr’; expected ‘char *(const char *, int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: 附注：in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake/Modules/CheckFunctionExists.c:1:1: 附注：‘strchr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_55c19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55c19.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strchr -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_55c19.dir/CheckFunctionExists.c.o  -o cmTC_55c19 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1e778/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1e778.dir/build.make CMakeFiles/cmTC_1e778.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1e778.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strrchr -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_1e778.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<命令行>: 警告：conflicting types for built-in function ‘strrchr’; expected ‘char *(const char *, int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: 附注：in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake/Modules/CheckFunctionExists.c:1:1: 附注：‘strrchr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_1e778
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e778.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strrchr -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_1e778.dir/CheckFunctionExists.c.o  -o cmTC_1e778 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_cf9a3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cf9a3.dir/build.make CMakeFiles/cmTC_cf9a3.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cf9a3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strstr -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_cf9a3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<命令行>: 警告：conflicting types for built-in function ‘strstr’; expected ‘char *(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: 附注：in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake/Modules/CheckFunctionExists.c:1:1: 附注：‘strstr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_cf9a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf9a3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strstr -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_cf9a3.dir/CheckFunctionExists.c.o  -o cmTC_cf9a3 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_16108/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16108.dir/build.make CMakeFiles/cmTC_16108.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_16108.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_16108.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_16108
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16108.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_16108.dir/CheckFunctionExists.c.o  -o cmTC_16108 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_68478/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_68478.dir/build.make CMakeFiles/cmTC_68478.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_68478.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_68478.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_68478
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68478.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_68478.dir/CheckFunctionExists.c.o  -o cmTC_68478 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7c5c6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7c5c6.dir/build.make CMakeFiles/cmTC_7c5c6.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7c5c6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtoull -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7c5c6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7c5c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c5c6.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtoull -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_7c5c6.dir/CheckFunctionExists.c.o  -o cmTC_7c5c6 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function lfind exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8f1bb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8f1bb.dir/build.make CMakeFiles/cmTC_8f1bb.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8f1bb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=lfind -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_8f1bb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8f1bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f1bb.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=lfind -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_8f1bb.dir/CheckFunctionExists.c.o  -o cmTC_8f1bb 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test HAVE_SNPRINTF succeeded with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f3555/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f3555.dir/build.make CMakeFiles/cmTC_f3555.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f3555.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DHAVE_SNPRINTF -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f3555.dir/src.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f3555
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3555.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DHAVE_SNPRINTF -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_f3555.dir/src.c.o  -o cmTC_f3555 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+#include <stdio.h>
+int main(void) {
+  char buf[10];
+  snprintf(buf, 10, "Test %d", 1);
+  return 0;
+}
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_cd6d2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd6d2.dir/build.make CMakeFiles/cmTC_cd6d2.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cd6d2.dir/TestEndianess.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_cd6d2.dir/TestEndianess.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_cd6d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd6d2.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_cd6d2.dir/TestEndianess.c.o  -o cmTC_cd6d2 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f89c0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f89c0.dir/build.make CMakeFiles/cmTC_f89c0.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f89c0.dir/TestEndianess.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f89c0.dir/TestEndianess.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_f89c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f89c0.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_f89c0.dir/TestEndianess.c.o  -o cmTC_f89c0 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_41826/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_41826.dir/build.make CMakeFiles/cmTC_41826.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_41826.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_41826.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_41826
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41826.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_41826.dir/CheckIncludeFile.c.o  -o cmTC_41826 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2a3e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2a3e1.dir/build.make CMakeFiles/cmTC_2a3e1.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2a3e1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_2a3e1.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2a3e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a3e1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_2a3e1.dir/CheckIncludeFile.c.o  -o cmTC_2a3e1 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_93dc2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_93dc2.dir/build.make CMakeFiles/cmTC_93dc2.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_93dc2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_93dc2.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_93dc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93dc2.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_93dc2.dir/CheckIncludeFile.c.o  -o cmTC_93dc2 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bc715/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc715.dir/build.make CMakeFiles/cmTC_bc715.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bc715.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_bc715.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bc715
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc715.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_bc715.dir/CheckIncludeFile.c.o  -o cmTC_bc715 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8beba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8beba.dir/build.make CMakeFiles/cmTC_8beba.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8beba.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_8beba.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8beba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8beba.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_8beba.dir/CheckIncludeFile.c.o  -o cmTC_8beba 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8eb4f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8eb4f.dir/build.make CMakeFiles/cmTC_8eb4f.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8eb4f.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_8eb4f.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8eb4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8eb4f.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_8eb4f.dir/CheckIncludeFile.c.o  -o cmTC_8eb4f 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7ed37/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ed37.dir/build.make CMakeFiles/cmTC_7ed37.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7ed37.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7ed37.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7ed37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ed37.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_7ed37.dir/CheckIncludeFile.c.o  -o cmTC_7ed37 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_341c2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_341c2.dir/build.make CMakeFiles/cmTC_341c2.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_341c2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_341c2.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_341c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_341c2.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_341c2.dir/CheckIncludeFile.c.o  -o cmTC_341c2 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_829e5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_829e5.dir/build.make CMakeFiles/cmTC_829e5.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_829e5.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_829e5.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_829e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_829e5.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_829e5.dir/CheckIncludeFile.c.o  -o cmTC_829e5 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_41b39/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_41b39.dir/build.make CMakeFiles/cmTC_41b39.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_41b39.dir/OPJ_HAVE_MALLOC_H.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_41b39.dir/OPJ_HAVE_MALLOC_H.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckIncludeFiles/OPJ_HAVE_MALLOC_H.c
+Linking C executable cmTC_41b39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41b39.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_41b39.dir/OPJ_HAVE_MALLOC_H.c.o  -o cmTC_41b39 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b4799/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b4799.dir/build.make CMakeFiles/cmTC_b4799.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b4799.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_POSIX_C_SOURCE=200112L  -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b4799.dir/CheckSymbolExists.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b4799
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4799.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_b4799.dir/CheckSymbolExists.c.o  -o cmTC_b4799 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+File /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memalign exist passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e22e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e22e2.dir/build.make CMakeFiles/cmTC_e22e2.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e22e2.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e22e2.dir/CheckSymbolExists.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e22e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e22e2.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_e22e2.dir/CheckSymbolExists.c.o  -o cmTC_e22e2 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+File /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b51b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b51b5.dir/build.make CMakeFiles/cmTC_b51b5.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b51b5.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-strict-prototypes -Wno-cast-function-type  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b51b5.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b51b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b51b5.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-strict-prototypes -Wno-cast-function-type  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_b51b5.dir/CheckIncludeFile.c.o  -o cmTC_b51b5 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6281d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6281d.dir/build.make CMakeFiles/cmTC_6281d.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6281d.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-strict-prototypes -Wno-cast-function-type -DCMAKE_HAVE_LIBC_PTHREAD -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_6281d.dir/src.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c:3:7: 警告：‘test_func’先前没有原型 [-Wmissing-prototypes]
+    3 | void* test_func(void* data)
+      |       ^~~~~~~~~
+Linking C executable cmTC_6281d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6281d.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-strict-prototypes -Wno-cast-function-type -DCMAKE_HAVE_LIBC_PTHREAD -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_6281d.dir/src.c.o  -o cmTC_6281d 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a911b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a911b.dir/build.make CMakeFiles/cmTC_a911b.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a911b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a911b.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a911b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a911b.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_a911b.dir/CheckIncludeFile.c.o  -o cmTC_a911b 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function dlerror exists in the dl passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9d3a5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d3a5.dir/build.make CMakeFiles/cmTC_9d3a5.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9d3a5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=dlerror -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_9d3a5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9d3a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d3a5.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=dlerror -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_9d3a5.dir/CheckFunctionExists.c.o  -o cmTC_9d3a5  -ldl 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3d2d4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3d2d4.dir/build.make CMakeFiles/cmTC_3d2d4.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3d2d4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_3d2d4.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3d2d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d2d4.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_3d2d4.dir/CheckIncludeFile.c.o  -o cmTC_3d2d4 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+

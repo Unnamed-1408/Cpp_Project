@@ -1,0 +1,749 @@
+Build output check failed:
+    Regex: 'argument .* is not valid'
+    Output line: 'cc1: 警告：‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type  -Werror=non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_04740/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04740.dir/build.make CMakeFiles/cmTC_04740.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_04740.dir/src.c.o
+/usr/bin/cc   -O2 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type  -Werror=non-virtual-dtor -o CMakeFiles/cmTC_04740.dir/src.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: 警告：‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_04740
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04740.dir/link.txt --verbose=1
+/usr/bin/cc   -O2 -DNDEBUG    CMakeFiles/cmTC_04740.dir/src.c.o  -o cmTC_04740 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: 警告：command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_70169/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_70169.dir/build.make CMakeFiles/cmTC_70169.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_70169.dir/src.cxx.o
+/usr/bin/c++    -O2 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_70169.dir/src.cxx.o -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: 警告：command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_70169
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70169.dir/link.txt --verbose=1
+/usr/bin/c++    -O2 -DNDEBUG    CMakeFiles/cmTC_70169.dir/src.cxx.o  -o cmTC_70169 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: 警告：command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a4dca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a4dca.dir/build.make CMakeFiles/cmTC_a4dca.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a4dca.dir/src.cxx.o
+/usr/bin/c++    -O2 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_a4dca.dir/src.cxx.o -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: 警告：command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_a4dca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4dca.dir/link.txt --verbose=1
+/usr/bin/c++    -O2 -DNDEBUG    CMakeFiles/cmTC_a4dca.dir/src.cxx.o  -o cmTC_a4dca 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: 警告：command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3e0d3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3e0d3.dir/build.make CMakeFiles/cmTC_3e0d3.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3e0d3.dir/src.c.o
+/usr/bin/cc   -O2 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_3e0d3.dir/src.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: 警告：command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_3e0d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e0d3.dir/link.txt --verbose=1
+/usr/bin/cc   -O2 -DNDEBUG    CMakeFiles/cmTC_3e0d3.dir/src.c.o  -o cmTC_3e0d3 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: 警告：command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e38a3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e38a3.dir/build.make CMakeFiles/cmTC_e38a3.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e38a3.dir/src.c.o
+/usr/bin/cc   -O2 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override -o CMakeFiles/cmTC_e38a3.dir/src.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: 警告：command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_e38a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e38a3.dir/link.txt --verbose=1
+/usr/bin/cc   -O2 -DNDEBUG    CMakeFiles/cmTC_e38a3.dir/src.c.o  -o cmTC_e38a3 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: 警告：command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0e71d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e71d.dir/build.make CMakeFiles/cmTC_0e71d.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0e71d.dir/src.c.o
+/usr/bin/cc   -O2 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_0e71d.dir/src.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: 警告：command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_0e71d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e71d.dir/link.txt --verbose=1
+/usr/bin/cc   -O2 -DNDEBUG    CMakeFiles/cmTC_0e71d.dir/src.c.o  -o cmTC_0e71d 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: 附注：unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3f2fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3f2fc.dir/build.make CMakeFiles/cmTC_3f2fc.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_3f2fc.dir/src.cxx.o
+/usr/bin/c++    -O2 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_3f2fc.dir/src.cxx.o -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: 附注：unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_3f2fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f2fc.dir/link.txt --verbose=1
+/usr/bin/c++    -O2 -DNDEBUG    CMakeFiles/cmTC_3f2fc.dir/src.cxx.o  -o cmTC_3f2fc 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: 附注：unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9fb72/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9fb72.dir/build.make CMakeFiles/cmTC_9fb72.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9fb72.dir/src.c.o
+/usr/bin/cc   -O2 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_9fb72.dir/src.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: 附注：unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_9fb72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fb72.dir/link.txt --verbose=1
+/usr/bin/cc   -O2 -DNDEBUG    CMakeFiles/cmTC_9fb72.dir/src.c.o  -o cmTC_9fb72 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: 警告：command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8a80c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8a80c.dir/build.make CMakeFiles/cmTC_8a80c.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8a80c.dir/src.c.o
+/usr/bin/cc   -O2 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_8a80c.dir/src.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: 警告：command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_8a80c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a80c.dir/link.txt --verbose=1
+/usr/bin/cc   -O2 -DNDEBUG    CMakeFiles/cmTC_8a80c.dir/src.c.o  -o cmTC_8a80c 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining size of off64_t failed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b0461/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b0461.dir/build.make CMakeFiles/cmTC_b0461.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b0461.dir/OFF64_T.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b0461.dir/OFF64_T.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: 错误：‘off64_t’ undeclared here (not in a function); did you mean ‘off_t’?
+   23 | #define SIZE (sizeof(off64_t))
+      |                      ^~~~~~~
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:25:12: 附注：in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_b0461.dir/build.make:86：CMakeFiles/cmTC_b0461.dir/OFF64_T.c.o] 错误 1
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:141：cmTC_b0461/fast] 错误 2
+
+
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: 附注：unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9269c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9269c.dir/build.make CMakeFiles/cmTC_9269c.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9269c.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_9269c.dir/src.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: 附注：unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_9269c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9269c.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_9269c.dir/src.c.o  -o cmTC_9269c 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_76f88/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_76f88.dir/build.make CMakeFiles/cmTC_76f88.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_76f88.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_76f88.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: 致命错误：io.h：没有那个文件或目录
+    1 | #include <io.h>
+      |          ^~~~~~
+编译中断。
+gmake[1]: *** [CMakeFiles/cmTC_76f88.dir/build.make:86：CMakeFiles/cmTC_76f88.dir/CheckIncludeFile.c.o] 错误 1
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:141：cmTC_76f88/fast] 错误 2
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_971ba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_971ba.dir/build.make CMakeFiles/cmTC_971ba.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_971ba.dir/int8.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_971ba.dir/int8.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/int8.c
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/int8.c:23:22: 错误：‘INT8’ undeclared here (not in a function); did you mean ‘INT8_C’?
+   23 | #define SIZE (sizeof(INT8))
+      |                      ^~~~
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/int8.c:25:12: 附注：in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_971ba.dir/build.make:86：CMakeFiles/cmTC_971ba.dir/int8.c.o] 错误 1
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:141：cmTC_971ba/fast] 错误 2
+
+
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e9ded/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9ded.dir/build.make CMakeFiles/cmTC_e9ded.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e9ded.dir/int16.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e9ded.dir/int16.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/int16.c
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/int16.c:23:22: 错误：‘INT16’ undeclared here (not in a function); did you mean ‘INT16_C’?
+   23 | #define SIZE (sizeof(INT16))
+      |                      ^~~~~
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/int16.c:25:12: 附注：in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_e9ded.dir/build.make:86：CMakeFiles/cmTC_e9ded.dir/int16.c.o] 错误 1
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:141：cmTC_e9ded/fast] 错误 2
+
+
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d4178/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d4178.dir/build.make CMakeFiles/cmTC_d4178.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d4178.dir/int32.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d4178.dir/int32.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/int32.c
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/int32.c:23:22: 错误：‘INT32’ undeclared here (not in a function); did you mean ‘INT32_C’?
+   23 | #define SIZE (sizeof(INT32))
+      |                      ^~~~~
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/int32.c:25:12: 附注：in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_d4178.dir/build.make:86：CMakeFiles/cmTC_d4178.dir/int32.c.o] 错误 1
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:141：cmTC_d4178/fast] 错误 2
+
+
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_dc682/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dc682.dir/build.make CMakeFiles/cmTC_dc682.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_dc682.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_dc682.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dc682
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc682.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_dc682.dir/CheckFunctionExists.c.o  -o cmTC_dc682 
+/usr/bin/ld: CMakeFiles/cmTC_dc682.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `setmode'
+collect2: 错误：ld 返回 1
+gmake[1]: *** [CMakeFiles/cmTC_dc682.dir/build.make:107：cmTC_dc682] 错误 1
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:141：cmTC_dc682/fast] 错误 2
+
+
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: 警告：command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a133e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a133e.dir/build.make CMakeFiles/cmTC_a133e.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a133e.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O2 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_a133e.dir/src.cxx.o -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: 警告：command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_a133e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a133e.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_a133e.dir/src.cxx.o  -o cmTC_a133e 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_cf8ef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cf8ef.dir/build.make CMakeFiles/cmTC_cf8ef.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cf8ef.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_cf8ef.dir/CheckSymbolExists.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: 在函数‘main’中:
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: 错误：‘_aligned_malloc’未声明(在此函数内第一次使用)
+    8 |   return ((int*)(&_aligned_malloc))[argc];
+      |                   ^~~~~~~~~~~~~~~
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: 附注：每个未声明的标识符在其出现的函数内只报告一次
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: 警告：形参‘argc’被设定但未被使用 [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[1]: *** [CMakeFiles/cmTC_cf8ef.dir/build.make:86：CMakeFiles/cmTC_cf8ef.dir/CheckSymbolExists.c.o] 错误 1
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:141：cmTC_cf8ef/fast] 错误 2
+
+
+File /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: 附注：unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2897c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2897c.dir/build.make CMakeFiles/cmTC_2897c.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_2897c.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O2 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_2897c.dir/src.cxx.o -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: 附注：unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_2897c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2897c.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_2897c.dir/src.cxx.o  -o cmTC_2897c 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5de58/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5de58.dir/build.make CMakeFiles/cmTC_5de58.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5de58.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5de58.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5de58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5de58.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_5de58.dir/CheckFunctionExists.c.o  -o cmTC_5de58 
+/usr/bin/ld: CMakeFiles/cmTC_5de58.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `sgemm_'
+collect2: 错误：ld 返回 1
+gmake[1]: *** [CMakeFiles/cmTC_5de58.dir/build.make:107：cmTC_5de58] 错误 1
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:141：cmTC_5de58/fast] 错误 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: 附注：unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5f049/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f049.dir/build.make CMakeFiles/cmTC_5f049.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_5f049.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O2 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_5f049.dir/src.cxx.o -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: 附注：unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_5f049
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f049.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_5f049.dir/src.cxx.o  -o cmTC_5f049 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: 附注：unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a0f77/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a0f77.dir/build.make CMakeFiles/cmTC_a0f77.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a0f77.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O2 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_a0f77.dir/src.cxx.o -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: 附注：unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_a0f77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0f77.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_a0f77.dir/src.cxx.o  -o cmTC_a0f77 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: 附注：unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_cf6e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cf6e9.dir/build.make CMakeFiles/cmTC_cf6e9.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_cf6e9.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O2 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_cf6e9.dir/src.cxx.o -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx:1: 警告：ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: 附注：unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_cf6e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf6e9.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O2 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_cf6e9.dir/src.cxx.o  -o cmTC_cf6e9 
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e8d1a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e8d1a.dir/build.make CMakeFiles/cmTC_e8d1a.dir/build
+gmake[1]: 进入目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e8d1a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O2 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e8d1a.dir/CheckIncludeFile.c.o   -c /home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: 致命错误：sys/videoio.h：没有那个文件或目录
+    1 | #include <sys/videoio.h>
+      |          ^~~~~~~~~~~~~~~
+编译中断。
+gmake[1]: *** [CMakeFiles/cmTC_e8d1a.dir/build.make:86：CMakeFiles/cmTC_e8d1a.dir/CheckIncludeFile.c.o] 错误 1
+gmake[1]: 离开目录“/home/bill/下载/opencv-4.5.0/build/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:141：cmTC_e8d1a/fast] 错误 2
+
+
+
