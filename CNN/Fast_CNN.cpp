@@ -12,7 +12,7 @@ struct T{
     float **List;
 };
 
-float *ConvBNReLU(int layer, int fliter_num, T *In_channel);
+static inline float *ConvBNReLU(int layer, int fliter_num, T *In_channel);
 float *MaxPooling(T *In_channel, int num, int layer);
 float *Flatten(T *In_channel);
 float *dot_product(float *Large);
@@ -24,7 +24,7 @@ void Start_CNN(float *B, float* G, float *R, int size){
     start->List[0] = B;
     start->List[1] = G;
     start->List[2] = R;
-    start->WNL = 128;
+    start->WNL = size;
 
     T *first = new T;
     T *second = new T;
@@ -37,7 +37,6 @@ void Start_CNN(float *B, float* G, float *R, int size){
     }
 
 
-
     for(int i = 0; i < 16; i++){
         float *tmp = MaxPooling(first, i, 1);
         delete first->List[i];
@@ -45,27 +44,12 @@ void Start_CNN(float *B, float* G, float *R, int size){
     }
     first->WNL = 32;
 
-//        for(int i = 0; i < 34; i++){
-//            for(int j = 0; j < 34; j++){
-//                    cout << first->List[0][i * 34 + j] << " ";
-//            }
-//            cout << endl;
-//        }
-
     second->WNL = 32;
     second->size = 32;
     second->List = new float*[32]();
-//    cout << "wa" << endl;
     for(int i = 0; i < 32; i++){
         second->List[i] = ConvBNReLU(1, i, first);
     }
-
-//    for(int i = 0; i < 34; i++){
-//        for(int j = 0; j < 34; j++){
-//                cout << second->List[0][i * 34 + j] << " ";
-//        }
-//        cout << endl;
-//    }
 
     for(int i = 0; i < 32; i++){
         float *tmp = MaxPooling(second, i, 2);
@@ -73,13 +57,6 @@ void Start_CNN(float *B, float* G, float *R, int size){
         second->List[i] = tmp;
     }
     second->WNL = 16;
-
-//        for(int i = 0; i < 18; i++){
-//            for(int j = 0; j < 18; j++){
-//                    cout << second->List[1][i * 18 + j] << " ";
-//            }
-//            cout << endl;
-//        }
 
     third->size = 32;
     third->List = new float*[32]();
@@ -89,27 +66,14 @@ void Start_CNN(float *B, float* G, float *R, int size){
     }
     third->WNL = 8;
 
-//    for(int i = 0; i < 10; i++){
-//        for(int j = 0; j < 10; j++){
-//                cout << third->List[30][i * 10 + j] << " ";
-//        }
-//        cout << endl;
-//    }
-
     float *end = Flatten(third);
 
-//    for(int i = 0; i < 2048; i++){
-//        cout << end[i] << " ";
-//    }
-
     float *to_out = dot_product(end);
-
     cout << "background : " <<(exp(to_out[0])/(exp(to_out[0]) + exp(to_out[1]))) << endl;
     cout << "face : " << (exp(to_out[1])/(exp(to_out[0]) + exp(to_out[1]))) << endl;
-
 }
 
-float *ConvBNReLU(int layer, int fliter_num, T *In_channel){
+static inline float *ConvBNReLU(int layer, int fliter_num, T *In_channel){
     int strike = conv_params[layer].stride;
 
     if(layer == 2){
@@ -117,37 +81,24 @@ float *ConvBNReLU(int layer, int fliter_num, T *In_channel){
         int y_ptr = 2;
         float * Storage = new float[(In_channel->WNL/strike + 2) * (In_channel->WNL/strike + 2)]();
         float* fliter = conv_params[layer].p_weight + fliter_num * In_channel->size * 9;
-        for(;y_ptr <= In_channel->WNL; y_ptr += strike){
+        for(y_ptr = 2;y_ptr <= In_channel->WNL; y_ptr += strike){
             for(x_ptr = 2; x_ptr <= In_channel->WNL; x_ptr += strike){
                 fliter = conv_params[layer].p_weight + fliter_num * In_channel->size * 9;
                 float tmp = 0;
-//            cout << x_ptr << " " << y_ptr << endl;
+                int tmp_a = (y_ptr-1) * (In_channel->WNL+2) + x_ptr;
+                int tmp_b = (y_ptr) * (In_channel->WNL+2) + x_ptr;
+                int tmp_c = (y_ptr+1) * (In_channel->WNL+2) + x_ptr;
                 for(int channel_ptr = 0; channel_ptr < In_channel->size; channel_ptr++){
-//                for(int i = 0; i < 3; i++){
-                        tmp += fliter[0] * In_channel->List[channel_ptr][(y_ptr-1) * (In_channel->WNL+2) + x_ptr - 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[1] * In_channel->List[channel_ptr][(y_ptr-1) * (In_channel->WNL+2) + x_ptr];
-//                    cout << tmp << endl;
-                        tmp += fliter[2] * In_channel->List[channel_ptr][(y_ptr-1) * (In_channel->WNL+2) + x_ptr + 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[3] * In_channel->List[channel_ptr][(y_ptr) * (In_channel->WNL+2) + x_ptr - 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[4] * In_channel->List[channel_ptr][(y_ptr) * (In_channel->WNL+2) + x_ptr];
-//                    cout << tmp << endl;
-                        tmp += fliter[5] * In_channel->List[channel_ptr][(y_ptr) * (In_channel->WNL+2) + x_ptr + 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[6] * In_channel->List[channel_ptr][(y_ptr+1) * (In_channel->WNL+2) + x_ptr - 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[7] * In_channel->List[channel_ptr][(y_ptr+1) * (In_channel->WNL+2) + x_ptr];
-//                    cout << tmp << endl;
-                        tmp += fliter[8] * In_channel->List[channel_ptr][(y_ptr+1) * (In_channel->WNL+2) + x_ptr + 1];
-//                    cout << tmp << endl;
-//                }
-                    fliter = fliter + 9;
-//                cout << tmp << endl;
-//                if(x_ptr == 2)
-//                    return nullptr;
-//                Storage[x_ptr + y_ptr*(In_channel->WNL + 2)] += tmp;
+                        tmp += fliter[0] * In_channel->List[channel_ptr][tmp_a - 1];
+                        tmp += fliter[1] * In_channel->List[channel_ptr][tmp_a];
+                        tmp += fliter[2] * In_channel->List[channel_ptr][tmp_a + 1];
+                        tmp += fliter[3] * In_channel->List[channel_ptr][tmp_b - 1];
+                        tmp += fliter[4] * In_channel->List[channel_ptr][tmp_b];
+                        tmp += fliter[5] * In_channel->List[channel_ptr][tmp_b + 1];
+                        tmp += fliter[6] * In_channel->List[channel_ptr][tmp_c - 1];
+                        tmp += fliter[7] * In_channel->List[channel_ptr][tmp_c];
+                        tmp += fliter[8] * In_channel->List[channel_ptr][tmp_c + 1];
+                        fliter = fliter + 9;
                 }
                 if(tmp + conv_params[layer].p_bias[fliter_num] > 0) // RELU
                     Storage[(strike - 2 + x_ptr/strike) + (strike - 2 + y_ptr/strike)*(In_channel->WNL/strike + 2)] += tmp + conv_params[layer].p_bias[fliter_num];
@@ -161,37 +112,24 @@ float *ConvBNReLU(int layer, int fliter_num, T *In_channel){
         int y_ptr = 1;
         float * Storage = new float[(In_channel->WNL/strike + 2) * (In_channel->WNL/strike + 2)]();
         float* fliter = conv_params[layer].p_weight + fliter_num * In_channel->size * 9;
-        for(;y_ptr <= In_channel->WNL; y_ptr += strike){
+        for(y_ptr = 1;y_ptr <= In_channel->WNL; y_ptr += strike){
             for(x_ptr = 1; x_ptr <= In_channel->WNL; x_ptr += strike){
                 fliter = conv_params[layer].p_weight + fliter_num * In_channel->size * 9;
                 float tmp = 0;
-//            cout << x_ptr << " " << y_ptr << endl;
+                int tmp_a = (y_ptr-1) * (In_channel->WNL+2) + x_ptr;
+                int tmp_b = (y_ptr) * (In_channel->WNL+2) + x_ptr;
+                int tmp_c = (y_ptr+1) * (In_channel->WNL+2) + x_ptr;
                 for(int channel_ptr = 0; channel_ptr < In_channel->size; channel_ptr++){
-//                for(int i = 0; i < 3; i++){
-                        tmp += fliter[0] * In_channel->List[channel_ptr][(y_ptr-1) * (In_channel->WNL+2) + x_ptr - 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[1] * In_channel->List[channel_ptr][(y_ptr-1) * (In_channel->WNL+2) + x_ptr];
-//                    cout << tmp << endl;
-                        tmp += fliter[2] * In_channel->List[channel_ptr][(y_ptr-1) * (In_channel->WNL+2) + x_ptr + 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[3] * In_channel->List[channel_ptr][(y_ptr) * (In_channel->WNL+2) + x_ptr - 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[4] * In_channel->List[channel_ptr][(y_ptr) * (In_channel->WNL+2) + x_ptr];
-//                    cout << tmp << endl;
-                        tmp += fliter[5] * In_channel->List[channel_ptr][(y_ptr) * (In_channel->WNL+2) + x_ptr + 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[6] * In_channel->List[channel_ptr][(y_ptr+1) * (In_channel->WNL+2) + x_ptr - 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[7] * In_channel->List[channel_ptr][(y_ptr+1) * (In_channel->WNL+2) + x_ptr];
-//                    cout << tmp << endl;
-                        tmp += fliter[8] * In_channel->List[channel_ptr][(y_ptr+1) * (In_channel->WNL+2) + x_ptr + 1];
-//                    cout << tmp << endl;
-//                }
+                    tmp += fliter[0] * In_channel->List[channel_ptr][tmp_a - 1];
+                    tmp += fliter[1] * In_channel->List[channel_ptr][tmp_a];
+                    tmp += fliter[2] * In_channel->List[channel_ptr][tmp_a + 1];
+                    tmp += fliter[3] * In_channel->List[channel_ptr][tmp_b - 1];
+                    tmp += fliter[4] * In_channel->List[channel_ptr][tmp_b];
+                    tmp += fliter[5] * In_channel->List[channel_ptr][tmp_b + 1];
+                    tmp += fliter[6] * In_channel->List[channel_ptr][tmp_c - 1];
+                    tmp += fliter[7] * In_channel->List[channel_ptr][tmp_c];
+                    tmp += fliter[8] * In_channel->List[channel_ptr][tmp_c + 1];
                     fliter = fliter + 9;
-//                cout << tmp << endl;
-//                if(x_ptr == 2)
-//                    return nullptr;
-//                Storage[x_ptr + y_ptr*(In_channel->WNL + 2)] += tmp;
                 }
                 if(tmp + conv_params[layer].p_bias[fliter_num] > 0) // RELU
                     Storage[(strike - 1 + x_ptr/strike) + (strike - 1 + y_ptr/strike)*(In_channel->WNL/strike + 2)] += tmp + conv_params[layer].p_bias[fliter_num];
@@ -203,37 +141,24 @@ float *ConvBNReLU(int layer, int fliter_num, T *In_channel){
         int y_ptr = 2;
         float * Storage = new float[(In_channel->WNL/strike + 2) * (In_channel->WNL/strike + 2)]();
         float* fliter = conv_params[layer].p_weight + fliter_num * In_channel->size * 9;
-        for(;y_ptr < In_channel->WNL; y_ptr += strike){
+        for(y_ptr = 2;y_ptr < In_channel->WNL; y_ptr += strike){
             for(x_ptr = 2; x_ptr < In_channel->WNL; x_ptr += strike){
                 fliter = conv_params[layer].p_weight + fliter_num * In_channel->size * 9;
                 float tmp = 0;
-//            cout << x_ptr << " " << y_ptr << endl;
+                int tmp_a = (y_ptr-1) * (In_channel->WNL+2) + x_ptr;
+                int tmp_b = (y_ptr) * (In_channel->WNL+2) + x_ptr;
+                int tmp_c = (y_ptr+1) * (In_channel->WNL+2) + x_ptr;
                 for(int channel_ptr = 0; channel_ptr < In_channel->size; channel_ptr++){
-//                for(int i = 0; i < 3; i++){
-                        tmp += fliter[0] * In_channel->List[channel_ptr][(y_ptr-1) * (In_channel->WNL+2) + x_ptr - 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[1] * In_channel->List[channel_ptr][(y_ptr-1) * (In_channel->WNL+2) + x_ptr];
-//                    cout << tmp << endl;
-                        tmp += fliter[2] * In_channel->List[channel_ptr][(y_ptr-1) * (In_channel->WNL+2) + x_ptr + 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[3] * In_channel->List[channel_ptr][(y_ptr) * (In_channel->WNL+2) + x_ptr - 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[4] * In_channel->List[channel_ptr][(y_ptr) * (In_channel->WNL+2) + x_ptr];
-//                    cout << tmp << endl;
-                        tmp += fliter[5] * In_channel->List[channel_ptr][(y_ptr) * (In_channel->WNL+2) + x_ptr + 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[6] * In_channel->List[channel_ptr][(y_ptr+1) * (In_channel->WNL+2) + x_ptr - 1];
-//                    cout << tmp << endl;
-                        tmp += fliter[7] * In_channel->List[channel_ptr][(y_ptr+1) * (In_channel->WNL+2) + x_ptr];
-//                    cout << tmp << endl;
-                        tmp += fliter[8] * In_channel->List[channel_ptr][(y_ptr+1) * (In_channel->WNL+2) + x_ptr + 1];
-//                    cout << tmp << endl;
-//                }
+                    tmp += fliter[0] * In_channel->List[channel_ptr][tmp_a - 1];
+                    tmp += fliter[1] * In_channel->List[channel_ptr][tmp_a];
+                    tmp += fliter[2] * In_channel->List[channel_ptr][tmp_a + 1];
+                    tmp += fliter[3] * In_channel->List[channel_ptr][tmp_b - 1];
+                    tmp += fliter[4] * In_channel->List[channel_ptr][tmp_b];
+                    tmp += fliter[5] * In_channel->List[channel_ptr][tmp_b + 1];
+                    tmp += fliter[6] * In_channel->List[channel_ptr][tmp_c - 1];
+                    tmp += fliter[7] * In_channel->List[channel_ptr][tmp_c];
+                    tmp += fliter[8] * In_channel->List[channel_ptr][tmp_c + 1];
                     fliter = fliter + 9;
-//                cout << tmp << endl;
-//                if(x_ptr == 2)
-//                    return nullptr;
-//                Storage[x_ptr + y_ptr*(In_channel->WNL + 2)] += tmp;
                 }
                 if(tmp + conv_params[layer].p_bias[fliter_num] > 0) // RELU
                     Storage[(strike - 1 + x_ptr/strike) + (strike - 1 + y_ptr/strike)*(In_channel->WNL/strike + 2)] += tmp + conv_params[layer].p_bias[fliter_num];
@@ -250,7 +175,7 @@ float *MaxPooling(T *In_channel, int num, int layer){
         float *Storage = new float[(In_channel->WNL/2 + 2) * (In_channel->WNL/2 + 2)]();
         int x_ptr = 1;
         int y_ptr = 1;
-        for(;y_ptr <= In_channel->WNL; y_ptr += 2){
+        for(y_ptr = 1;y_ptr <= In_channel->WNL; y_ptr += 2){
             for(x_ptr = 1; x_ptr <= In_channel->WNL; x_ptr += 2){
                 Storage[1 + x_ptr/2 + (1 + y_ptr/2) * (In_channel->WNL/2 + 2)] = max(In_channel->List[num][x_ptr + y_ptr * (In_channel->WNL + 2)],In_channel->List[num][x_ptr + 1 + y_ptr * (In_channel->WNL + 2)]);
                 Storage[1 + x_ptr/2 + (1 + y_ptr/2) * (In_channel->WNL/2 + 2)] = max(Storage[1 + x_ptr/2 + (1 + y_ptr/2) * (In_channel->WNL/2 + 2)],In_channel->List[num][x_ptr + 1 + (y_ptr + 1) * (In_channel->WNL + 2)]);
@@ -263,7 +188,7 @@ float *MaxPooling(T *In_channel, int num, int layer){
         float *Storage = new float[(In_channel->WNL/2 + 2) * (In_channel->WNL/2 + 2)]();
         int x_ptr = 2;
         int y_ptr = 2;
-        for(;y_ptr < In_channel->WNL; y_ptr += 2){
+        for(y_ptr = 2;y_ptr < In_channel->WNL; y_ptr += 2){
             for(x_ptr = 2; x_ptr < In_channel->WNL; x_ptr += 2){
                 Storage[1 + x_ptr/2 + (1 + y_ptr/2) * (In_channel->WNL/2 + 2)] = max(In_channel->List[num][x_ptr + y_ptr * (In_channel->WNL + 2)],In_channel->List[num][x_ptr + 1 + y_ptr * (In_channel->WNL + 2)]);
                 Storage[1 + x_ptr/2 + (1 + y_ptr/2) * (In_channel->WNL/2 + 2)] = max(Storage[1 + x_ptr/2 + (1 + y_ptr/2) * (In_channel->WNL/2 + 2)],In_channel->List[num][x_ptr + 1 + (y_ptr + 1) * (In_channel->WNL + 2)]);
@@ -279,8 +204,9 @@ float *Flatten(T *In_channel){
     int Large_ptr = 0;
     for(int m = 0; m < In_channel->size; m++){
         for(int i = 1; i <= In_channel->WNL; i++){
+            int tmp = i * (In_channel->WNL + 2);
             for(int j = 1; j <= In_channel->WNL; j++){
-                Large[Large_ptr] = In_channel->List[m][i * (In_channel->WNL + 2) + j];
+                Large[Large_ptr] = In_channel->List[m][tmp + j];
                 Large_ptr++;
             }
         }
@@ -292,42 +218,13 @@ float *Flatten(T *In_channel){
 float *dot_product(float *Large){
     float *out = new float[2]();
     for(int i = 0; i < 2; i++){
+        int tmp = i * 2048;
         for(int j = 0; j < 2048; j++){
-            out[i] += Large[j] * fc_params->p_weight[i * 2048 + j];
-//            cout << out[i] << " ";
+            out[i] += Large[j] * fc_params->p_weight[tmp + j];
         }
         out[i] += fc_params->p_bias[i];
     }
     return out;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
